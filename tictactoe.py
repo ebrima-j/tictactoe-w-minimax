@@ -205,10 +205,3 @@ def minimax(board):
                 v = min(v, maxValue(result(board, action)))
                 if v == mn:
                     return action
-                
-x = [['O', 'X', 'O'],
-[None, 'X', 'O'],
-['X', 'X', None]]
-
-w = winner(x)
-print(w)
